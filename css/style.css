@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  body {
+    font-size: 1rem;
+    font-family: roboto;
+    background: #e5e5e5;
+  }
+  .icon {
+    width: 50px;
+  }
+  .menu {
+    background: #0077b6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-list {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid black;
+    margin: 0 -2px;
+  }
+  .menu-list-item {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .menu-list-img {
+    border: none;
+  }
+  .menu-list:hover {
+    background: cadetblue;
+    border-right: 1px solid cadetblue;
+    border-left: 1px solid cadetblue;
+    border-radius: 0.5rem;
+  }
+  .contact-list {
+    display: block;
+    padding: 1rem 2rem;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+  }
+  .contact-list:hover {
+    background: white;
+  }
+  .contact-list:visited {
+    color: white;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "contact" "information" "feature";
+    grid-gap: 1rem;
+  }
+  #contact {
+    grid-area: "contact";
+    border: 1px solid black;
+    text-align: center;
+    background: #00b4d8;
+  }
+  #information {
+    grid-area: "information";
+    border: 1px solid black;
+    text-align: center;
+    background: #00b4d8;
+  }
+  #feature {
+    grid-area: "feature";
+    border: 1px solid black;
+    text-align: center;
+    background: #00b4d8;
+  }
+  main {
+    padding-top: 2rem;
+  }
+  #feature h3,p {
+      padding-top:1rem;
+  }
+  
+  #grid-info{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "info-img" "info-info";
+      grid-gap:2rem;
+  }
+  #info-img{
+      grid-area:"info-img";
+  }
+  #info-info{
+      grid-area:"info-info";
+      text-align:left;
+  }
+  
+  /* .div-date-image{
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.1fr 1fr;
+      grid-template-areas:
+      "p-date" "photo-dog";
+      grid-gap:2rem;
+  }   */
+  .photo-dog{
+      width:305px;
+  }
+  .p-date{
+      background:#0096c7;
+      text-align:center;
+      align-items:center;
+      padding:0;
+      margin:0;  
+  }
+  h1{
+      padding-bottom:0.3rem;
+  }
+  

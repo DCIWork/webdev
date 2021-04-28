@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DogGroomer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <img src="https://placedog.net/500" alt="random dog image">
-  <p>Here's a placeholder HTML page to get your project started.</p>
+    <nav>
+    <div class="menu">
+        <div class="menu-list menu-list-img">
+            <a href="index.html"><img class="icon" src="images/leaf.png" alt=""></a>
+        </div>
+        <div class="menu-list-input">
+            <input type="text" placeholder="Search............">
+            <label class="menu-list-item-filters" for="text"><a href="" class="menu-list-item">Filters</a></label>
+        </div>
+        <div class="menu-list">
+            <a class="menu-list-item" href="">Home</a>
+        </div>
+        <div class="menu-list">
+            <a class="menu-list-item" href="">List</a>
+        </div>
+        <div class="menu-list">
+            <a class="menu-list-item" href="">Calendar</a>
+        </div>
+        <div class="menu-list">
+            <a class="menu-list-item" href="">Statistics</a>
+        </div>
+    </div>
+    </nav>
+    <main>
+    <div id="grid">
+        <div id="contact">
+            <h2>Contact</h2>
+            <a class= "contact-list" href="">Phone</a>
+            <a class= "contact-list" href="">SMS</a>
+            <a class= "contact-list" href="">Messenger</a>
+            <a class= "contact-list" href="">Whatsapp</a>
+            <a class= "contact-list" href="">E-mail</a>
+        </div>
+        <div id="information">
+            <h1>Information</h1>
+        <div id="grid-info">
+            <div id="info-img">
+                <div class="div-date-img">
+                <p class="p-date">20.05.2020</p>   
+                <img class="photo-dog" src="https://placedog.net/500/280" alt="photo-dog">
+                </div>
+                <div class="div-date-img">
+                    <p class="p-date">25.11.2020</p>   
+                    <img class="photo-dog" src="https://placedog.net/500/280" alt="photo-dog">
+                    </div>
+                    <div class="div-date-img">
+                        <p class="p-date">01.02.2021</p>   
+                        <img class="photo-dog" src="https://placedog.net/500/280" alt="photo-dog">
+                        </div>
+            </div>
+            <div id="info-info">
+            <p>Name: Example</p>   
+            <p>Size: Small</p>  
+            <p>Service: Example</p>
+            <p>Address: Example
+            <p>Date Visit (Last): 22.04.2021</p>
+            <p>Birthday: 22.04.1830</p>    
+            <p>Price: 60</p>
+            <p>Additional comments</p>
+            <textarea name="Comments" id="comments" cols="30" rows="10" placeholder="Please describe this beautiful dog"></textarea>
+            </div>
+        </div>
+        </div>
+        <div id="feature">
+            <h2>Widget</h2>
+            <h3>Price list</h3>
+            <p>Small Dogs: 60</p>
+            <p>Medium Dogs: 70</p>
+            <p>Big Dogs: 80</p>
+        </div>
+    </div>
+    </main>
 </body>
 </html>
