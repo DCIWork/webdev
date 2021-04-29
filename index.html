@@ -12,13 +12,18 @@
 <body>
     <nav>
     <div class="menu">
+    <div class="nav-flex-1">
         <div class="menu-list menu-list-img">
             <a href="index.html"><img class="icon" src="images/leaf.png" alt=""></a>
         </div>
+    </div>
+    <div class="nav-flex-2">
         <div class="menu-list-input">
             <input type="text" placeholder="Search............">
             <label class="menu-list-item-filters" for="text"><a href="" class="menu-list-item">Filters</a></label>
         </div>
+    </div>
+    <div class="nav-flex-3">
         <div class="menu-list">
             <a class="menu-list-item" href="">Home</a>
         </div>
@@ -32,44 +37,67 @@
             <a class="menu-list-item" href="">Statistics</a>
         </div>
     </div>
+    </div>
     </nav>
     <main>
     <div id="grid">
         <div id="contact">
             <h2>Contact</h2>
+            <div class="padding-top">
             <a class= "contact-list" href="">Phone</a>
             <a class= "contact-list" href="">SMS</a>
             <a class= "contact-list" href="">Messenger</a>
             <a class= "contact-list" href="">Whatsapp</a>
             <a class= "contact-list" href="">E-mail</a>
         </div>
+        </div>
         <div id="information">
             <h1>Information</h1>
-        <div id="grid-info">
+        <div id="grid-info" class="padding-top">
             <div id="info-img">
                 <div class="div-date-img">
-                <p class="p-date">20.05.2020</p>   
+                <figure>
+                <figcaption class="p-date">20.05.2020</figcaption>   
                 <img class="photo-dog" src="https://placedog.net/500/280" alt="photo-dog">
+                </figure>
                 </div>
                 <div class="div-date-img">
-                    <p class="p-date">25.11.2020</p>   
+                    <figure>
+                    <figcaption class="p-date">25.11.2020</figcaption>   
                     <img class="photo-dog" src="https://placedog.net/500/280" alt="photo-dog">
+                    </figure>
                     </div>
                     <div class="div-date-img">
-                        <p class="p-date">01.02.2021</p>   
+                        <figure>
+                        <figcaption class="p-date">01.02.2021</figcaption>   
                         <img class="photo-dog" src="https://placedog.net/500/280" alt="photo-dog">
+                        </figure>
                         </div>
             </div>
             <div id="info-info">
-            <p>Name: Example</p>   
-            <p>Size: Small</p>  
-            <p>Service: Example</p>
-            <p>Address: Example
-            <p>Date Visit (Last): 22.04.2021</p>
-            <p>Birthday: 22.04.1830</p>    
-            <p>Price: 60</p>
+            <p>Name: 
+                <span>Example</span>
+            </p>   
+            <p>Size: 
+                <span>Small</span>
+            </p>  
+            <p>Service: 
+                <span>Example</span>
+            </p>
+            <p>Address: 
+                <span>Example</span>
+            </p>
+            <p>Date Visit (Last): 
+                <span>22.04.2021</span>
+            </p>
+            <p>Birthday: 
+                <span>22.04.1830</span>
+            </p>    
+            <p>Price: 
+                <span>60</span>
+            </p>
             <p>Additional comments</p>
-            <textarea name="Comments" id="comments" cols="30" rows="10" placeholder="Please describe this beautiful dog"></textarea>
+            <textarea  name="Comments" id="comments" cols="30" rows="10" placeholder="Please describe this beautiful dog"></textarea>
             </div>
         </div>
         </div>
