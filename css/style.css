@@ -87,11 +87,12 @@
     grid-template-areas: "contact" "information" "feature";
     border:1px solid var(--green5);
     grid-gap:1rem;
+    border-top:1px solid black;
   }
   #contact {
     padding-top:2rem;
     grid-area: "contact";
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     background: var(--green3);
     
@@ -102,11 +103,12 @@
     /* border: 1px solid black; */
     text-align: center;
     background: var(--green3);
+    
   }
   #feature {
-    padding-top:2rem;
+    padding-top:2.45rem;
     grid-area: "feature";
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     background: var(--green3);
   }
