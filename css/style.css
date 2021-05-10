@@ -95,6 +95,7 @@
     /* border: 1px solid black; */
     text-align: center;
     background: var(--green3);
+    border-right:1px solid black;
     
   }
   #information {
@@ -111,6 +112,9 @@
     /* border: 1px solid black; */
     text-align: center;
     background: var(--green3);
+    border-left:1px solid black;
+    padding-left:1rem;
+    padding-right:1rem;
   }
   /* main {
     padding-top: 2rem;
