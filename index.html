@@ -10,39 +10,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav id="nav">
     <div class="menu">
     <div class="nav-flex-1">
         <div class="menu-list menu-list-img">
-            <a href="index.html"><img class="icon" src="images/leaf.png" alt=""></a>
+            <a href="index.html"><img class="icon-nav" src="images/shiba.png" alt=""></a>
         </div>
     </div>
     <div class="nav-flex-2">
         <div class="menu-list-input">
-            <input type="text" placeholder="Search............">
+            <input class="nav-search" type="text" placeholder="Search...................................">
             <label class="menu-list-item-filters" for="text"><a href="" class="menu-list-item">Filters</a></label>
         </div>
     </div>
     <div class="nav-flex-3">
         <div class="menu-list">
-            <a class="menu-list-item" href="">Home</a>
+            <a class="menu-list-item" href="#main1">Home</a>
         </div>
         <div class="menu-list">
-            <a class="menu-list-item" href="">List</a>
+            <a class="menu-list-item" href="#main2">List</a>
         </div>
         <div class="menu-list">
-            <a class="menu-list-item" href="">Calendar</a>
+            <a class="menu-list-item" href="#main3">Calendar</a>
         </div>
         <div class="menu-list">
-            <a class="menu-list-item" href="">Statistics</a>
+            <a class="menu-list-item" href="#main4">Statistics</a>
         </div>
     </div>
     </div>
     </nav>
-    <main>
+<!-- <div class="home">
+    <a href="#main1">Information</a>
+    <a href="#main2">Information</a>
+    <a href="#main3">Information</a>
+    <a href="#main4">Information</a>
+</div> -->
+    <section id="main1" class="target home">
+    <main id="tar">
     <div id="grid">
         <div id="contact">
-            <h2>Contact</h2>
+            <h2>Contact <img class="icon icon-phone" src="images/phone.png" alt=""></h2>
             <div class="padding-top">
             <a class= "contact-list" href="">Phone</a>
             <a class= "contact-list" href="">SMS</a>
@@ -76,7 +83,7 @@
             </div>
             <div id="info-info">
             <p>Dog's owner(Full name): 
-                <span>Example</span>
+                <input type="text" placeholder="Example">
             </p> 
             <p>Dog Name: 
                 <span>Example</span>
@@ -126,12 +133,62 @@
         </div>
         <div id="feature">
             <h2>Widget</h2>
-            <h3>Price list</h3>
+            <h3><img class="icon icon-price"src="images/price-list.png" alt="">Price list</h3>
             <p>Small Dogs: 60</p>
             <p>Medium Dogs: 70</p>
             <p>Big Dogs: 80</p>
         </div>
     </div>
     </main>
+    <button class="btn-back">
+        <div class="flex1">
+        <a class="flex-item-1" href="#main1">Home</a>
+        <a class="flex-item-2"href="#main2">List</a>
+        </div>
+        <div class="flex2">
+        <a class="flex-item-3" href="#main3">Calendar</a>
+        <a class="flex-item-4" href="#main4">Statistics</a>
+        </div>
+    </button>
+</section>
+    <section id="main2" class="target list">
+        List
+        <button class="btn-back">
+            <div class="flex1">
+            <a class="flex-item-1" href="#main1">Home</a>
+            <a class="flex-item-2"href="#main2">List</a>
+            </div>
+            <div class="flex2">
+            <a class="flex-item-3" href="#main3">Calendar</a>
+            <a class="flex-item-4" href="#main4">Statistics</a>
+            </div>
+        </button>
+    </section>
+    <section id="main3" class="target calendar">
+        Kalendarz
+        <button class="btn-back">
+            <div class="flex1">
+            <a class="flex-item-1" href="#main1">Home</a>
+            <a class="flex-item-2"href="#main2">List</a>
+            </div>
+            <div class="flex2">
+            <a class="flex-item-3" href="#main3">Calendar</a>
+            <a class="flex-item-4" href="#main4">Statistics</a>
+            </div>
+        </button>
+    </section>
+    <section id="main4" class="target statistics">
+        Statistics
+        <button class="btn-back">
+            <div class="flex1">
+            <a class="flex-item-1"href="#main1">Home</a>
+            <a class="flex-item-2"href="#main2">List</a>
+            </div>
+            <div class="flex2">
+            <a class="flex-item-3" href="#main3">Calendar</a>
+            <a class="flex-item-4" href="#main4">Statistics</a>
+            </div>
+        </button>
+    </section>
 </body>
 </html>
